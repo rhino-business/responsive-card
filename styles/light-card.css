@@ -1,4 +1,4 @@
-                #gist {
+                     #gist {
 	                 display: grid;
 	                 background: #FFFFFF; 
 	                 border: 0.04rem solid transparent;
@@ -45,16 +45,16 @@
 	                 background: rgba(52, 0, 239, 0.8);
 	             }
 	             #start h1 {
-	                  font-size: 1.3rem;
-                     text-align: center; 
-                     padding: 1.5rem 1.5rem;
-                     margin-top: -0.1rem; 
-                     margin-bottom: -0.1rem;
-                     font-family: "Cuprum";
-                     color: #F1E9BA;
-                     letter-spacing: 0.25rem;
-                     line-height: 1.8rem;
-                }
+	                 font-size: 1.3rem;
+                         text-align: center; 
+                         padding: 1.5rem 1.5rem;
+                         margin-top: -0.1rem; 
+                         margin-bottom: -0.1rem;
+                         font-family: "Cuprum";
+                         color: #F1E9BA;
+                         letter-spacing: 0.25rem;
+                         line-height: 1.8rem;
+                     }
 	             #shirt p {
 	                 padding-left: 1.5rem;
 	                 padding-right: 1.5rem;
@@ -77,95 +77,95 @@
 	                 color: #7E6970;
 	             }
 	             @font-face {
-                     font-family: "Cuprum"; 
-                     src: url("../fonts/dg45_pLmvrkcOkBnKsOzXyGWTBcmg-X6VjvYJw.woff2") format("woff2");  
-                     font-style: normal; 
-                     font-weight: normal; 
-                     font-display: block;
-                }
-                @media(min-width: 1900px) {
-                     #gist {
-                         width: 1400px;
-                         place-self: center;
+                         font-family: "Cuprum"; 
+                         src: url("../fonts/dg45_pLmvrkcOkBnKsOzXyGWTBcmg-X6VjvYJw.woff2") format("woff2");  
+                         font-style: normal; 
+                         font-weight: normal; 
+                         font-display: block;
                      }
-                }
-                @media(max-width: 540px) { 
-                     #shirt {
-                        width: 27rem;
-                        height: 29rem;
+                     @media(min-width: 1900px) {
+                         #gist {
+                            width: 1400px;
+                            place-self: center;
+                         }
                      }
-                     #shirt::before {
-                        width: 8.7rem;
-                        margin-top: 96.5%; 
-                        margin-left: 20.5rem;
-                        border-radius: 0 0 3rem 3rem;
-                     }
-                }  
+                     @media(max-width: 540px) { 
+                         #shirt {
+                            width: 27rem;
+                            height: 29rem;
+                         }
+                         #shirt::before {
+                            width: 8.7rem;
+                            margin-top: 96.5%; 
+                            margin-left: 20.5rem;
+                            border-radius: 0 0 3rem 3rem;
+                         }
+                     }  
 	             @media(max-width: 500px) {
-                     #shirt {
-                        width: 24rem;
-                        height: 31rem;
+                          #shirt {
+                            width: 24rem;
+                            height: 31rem;
+                          }
+                          #shirt::before {
+                            width: 8.5rem; 
+                            margin-top: 117%; 
+                            margin-left: 17.6rem; 
+                            border-radius: 0 0 3rem 3rem;
+                          }
                      }
-                     #shirt::before {
-                        width: 8.5rem; 
-                        margin-top: 117%; 
-                        margin-left: 17.6rem; 
-                        border-radius: 0 0 3rem 3rem;
+                     @media(max-width: 450px) {
+                          #shirt {
+                            width: 21rem;
+                            height: 36rem;
+                          }
+                          #shirt::before {
+                            width: 8.2rem;
+                            margin-top: 158%; 
+                            margin-left: 15rem; 
+                            border-radius: 0 0 3rem 3rem;
+                         }
                      }
-                }
-                @media(max-width: 450px) {
-                     #shirt {
-                        width: 21rem;
-                        height: 36rem;
-                     }
-                     #shirt::before {
-                        width: 8.2rem;
-                        margin-top: 158%; 
-                        margin-left: 15rem; 
-                        border-radius: 0 0 3rem 3rem;
-                     }
-                }
 	             @media(max-width: 400px) {
-                     #shirt {
-                        width: 18rem;
-                        height: 39rem;
-                     }
-                     #shirt::before {
-                        width: 8rem;
-                        margin-top: 202%; 
-                        margin-left: 12rem;
-                        border-radius: 0 0 3rem 3rem;
-                     }
-                }
-                @media(max-width: 350px) {
-                     #shirt {
-                        width: 16rem;
-                        height: 47rem;
-                     }
-                     #shirt::before {
-                        width: 7.5rem;
-                        margin-top: 277%; 
-                        margin-left: 10.2rem;
-                        height: 1.8rem;
-                        font-size: 1.2rem;
-                        border-radius: 0 0 3rem 3rem;
-                     }
-                }
-                @media(max-width: 320px) {
-                     #shirt {
-                        width: 14rem;
-                        height: 56rem;
-                     }
-                     #shirt::before {
-                        width: 6.8rem;
-                        margin-top: 380%; 
-                        margin-left: 8.5rem; 
-                        border-radius: 0 0 3rem 3rem;
-                     }
-                }
-                @media(max-width: 279px) {
-                     #gist {
-                        display: none;
-                     }
-                }
+                          #shirt {
+                            width: 18rem;
+                            height: 39rem;
+                          }
+                          #shirt::before {
+                            width: 8rem;
+                            margin-top: 202%; 
+                            margin-left: 12rem;
+                            border-radius: 0 0 3rem 3rem;
+                         }
+                    }
+                    @media(max-width: 350px) {
+                         #shirt {
+                            width: 16rem;
+                            height: 47rem;
+                         }
+                         #shirt::before {
+                            width: 7.5rem;
+                            margin-top: 277%; 
+                            margin-left: 10.2rem;
+                            height: 1.8rem;
+                            font-size: 1.2rem;
+                            border-radius: 0 0 3rem 3rem;
+                         }
+                    }
+                    @media(max-width: 320px) {
+                         #shirt {
+                            width: 14rem;
+                            height: 56rem;
+                         }
+                         #shirt::before {
+                            width: 6.8rem;
+                            margin-top: 380%; 
+                            margin-left: 8.5rem; 
+                            border-radius: 0 0 3rem 3rem;
+                         }
+                    }
+                    @media(max-width: 279px) {
+                         #gist {
+                            display: none;
+                         }
+                    }
                  
